@@ -15,11 +15,6 @@ app.get('/',
     res.sendFile(path.join(__dirname + '/static/1.html'));
 });
 
-app.get('/helloworld',
-  (req, res) => {
-    console.log("hello world");
-});
-
 app.post('/:problem', (req, res) =>
 {
     var problemNum = req.params.problem;
