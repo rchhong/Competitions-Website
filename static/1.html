@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="main.css">
   <title>Problem 1</title>
 </head>
 
 <body>
-  <h1>PROBLEM 1</h1>
-  <span>Blah blah blah blah blah blah</span>
-  <form class="" action="/1" method="POST">
-      Answer:<br>
-      <input type="text" name="answer" value="">
-      <br>
-      <br>
-      <input type="submit" value="Submit">
-  </form>
+
+  <div class="row">
+    <h1>PROBLEM 1</h1>
+
+    <div class="section">
+        <h3>Blah blah blah blah blah blah</h3> 
+    </div>
+
+    <div class="section">
+    <div class="col s3"></div>  
+      <form class="col s6" action="/1" method="POST">
+        <h6>Answer:</h6><br>
+        <input id="inText" type="text" name="answer" value="">
+        <br>
+        <br>
+        <input id="button" class="col s12 btn waves-effect waves-light" type="submit" value="Submit">
+      </form>
+    <div class="col s3"></div>
+  </div>
+
+</div>
+
 </body>
