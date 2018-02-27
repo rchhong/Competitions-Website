@@ -5,7 +5,8 @@ const bodyParser = require('body-parser');
 
 var soln = {
           1 : 'ayy',
-          2 : 'lmao'
+          2 : 'lmao',
+          3 : 'lmao'
 };
 
 app.use(bodyParser.urlencoded({ extended: true }));
