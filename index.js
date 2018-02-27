@@ -16,6 +16,11 @@ app.get('/',
     res.sendFile(path.join(__dirname + '/static/1.html'));
 });
 
+app.get('/:problem', (req, res) => {
+  var problemNum = req.params.problem;
+  res.sendFile(path.join(__dirname + '/static/' + (parseInt(problemNum)+1) + '.html'));
+});
+
 app.post('/:problem', (req, res) =>
 {
     var problemNum = req.params.problem;
