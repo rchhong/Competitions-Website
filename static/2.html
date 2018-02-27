@@ -18,26 +18,21 @@
     <div class="row">
       <div class="section">
         <div class="col s3"></div>
-        <h6 class="col s12">Dr. Gruver, frustrated with the current state of TAMS, has retired to follow his true passion - starting a matchmaking service.
-          He already has a sufficient clientele base that knows him, and each of them have provided Dr. Gruver their age.
-          However, Dr. Gruver is very specific, and only wants to make matches where the age difference between the couple is a certain amount.
-        </h6>
-        <h6 class="col s12">Help Dr. Gruver determine whether his current set of clients has a match that he's willing to make.</h6>
+        <h6 class="col s12">Russ has decided to update his records. He wants to move to a computerized system that keeps track of each student, and how many times they've gotten docc'd at TAMS. However, since TAMS has no funding, his previous system is old, and on paper, and only records the student ID of each doc, which means there may be repeats.</h6>
+        <h6 class="col s12">Help Russ develop a system that sorts each student in decreasing order by the number of times they've been docc'd by TAMS admin/staff. Russ, being extremely reluctant to computerize (he was used to using paper records for the past thousand years), decides that if two students have gotten docc'd the same amount of times, they will be kept in the same order as they were in paper.</h6>
         <h6 class="col s12">INPUT:<br>
-        The first line contains the number of clients, N.
-        The second line contains an age difference, A, and the third line contains a space-separated list of each user’s ages.
+The first line of the input contains a single integer N, denoting the length of the list of student IDs. Line 2 contains a space-separated list of student IDs with length N.
         <br>
         </h6>
         <h6 class="col s12">SAMPLE INPUT: <br>
-        <h6 style="margin-left : 46%; text-align : left;"class="col s12">
-          5<br>
-          1<br>
-          1 2 3 4 5<br>
+        <h6 style="margin-left : 42%; text-align : left;"class="col s12">
+          15<br>
+          1 1 1 1 4 2 3 3 3 5 6 6 6 6 7<br>
         </h6>
         <h6 class="col s12">OUTPUT:<br>
-          Please output a space-separated set of pairs of ages that could make viable couples.<br></h6>
+          Please output a space-separated list of the student IDs in russ’s desired order.<br></h6>
         <h6 class="col s12">SAMPLE OUTPUT:
-          <br><br>1 2 2 3 3 4 4 5</h6>
+          <br><br>1 1 1 1 6 6 6 6 3 3 3 4 2 5 7</h6>
         <div class="col s3"></div>
         <div class="col s3"></div>
       </div>
